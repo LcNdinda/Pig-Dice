@@ -1,31 +1,34 @@
 // Business Logic
-
-function randomNumber(){
-var ramNumber = Math.floor(Math.random()*6)+1);
-return ramNumber;
+function Dice(randomNumber){
+  this.randomNumber = randomNumber;
+  this.scores = []
 }
 
-function Dice(number){
-  this.number = number;
-  this.score = [];
+function Score(scores){
+ this.scores = scores;
+};
+
+Dice.prototype.diceRoll = function(){
+  total = 0;
+  this.scores.forEach(function(score){
+    return total + score;
+  });
+};
+
+Dice.prototype.totalScore  = function(){
+  return this.randomNumber + this.scores;
 }
 
-function Score(score){
-  this.score = score;
-}
+ var randomize = function(){
+   var randomNumber = Math.floor((Math.random() * 6) + 1);
+   return randomNumber;
+ }
 
-Dice.prototype.Calculation = function(){
 
-}
-
-// User Logic
-
+// USER LOGIC
 $(document).ready(function(){
   $("button#player1").click(function(){
-
-    var result = randomNumber()
-    var newRoll = new Dice(result);
-    
-
+    var player1 = randomize();
+    $("#player1Results").append("<p>" + player1 +"</p>")
   })
 })

@@ -1,0 +1,16 @@
+#btn-hold{
+  text-decoration: none;
+  background-color: #FFEBEE;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 12px;
+}
+#btn-hold{
+  background-color:  #FFEBEE;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+img{
+  width: 80%;
+}

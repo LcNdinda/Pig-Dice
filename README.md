@@ -25,7 +25,6 @@ When a player reaches a total of 100 or more points, the game ends and that play
 * Open the terminal and write git clone then paste the link on the directory you want to place the project.
 * Open the directory then open the index.html file on the browser to run the program.
 ***
-
 ## Behaviour Driven Development
 1. The program allows players to switch turns.
 
@@ -40,8 +39,20 @@ When a player reaches a total of 100 or more points, the game ends and that play
     **OUTPUT EXAMPLE:** 6
     
 3. The program displays rolled dice results
+
     **INPUT EXAMPLE:** Roll Dice
+    
     **OUTPUT EXAMPLE** Displays 3
+    
+  
+ ***
+ ## Link To Live Website
+ [Pig Dice]()
+ 
+ ***
+ 
+ ## Copyright and License Information
+  This project is licensed under the terms of the **MIT** license.
    
  
  

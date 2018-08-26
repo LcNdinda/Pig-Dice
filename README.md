@@ -53,7 +53,17 @@ When a player reaches a total of 100 or more points, the game ends and that play
      
      **OUTPUT EXAMPLE:** You rolled a 1, score is Zero
  
-
+5. The program adds and display total results of the dice rolled
+      
+      **INPUT EXAMPLE** 3,4,5
+      
+      **OUTPUT EXAMPLE** 12
+      
+ 6. The program changes the roll dice button between players when they click on hold
+ 
+      **INPUT EXAMPLE** player1 clicks on "HOLD"
+      
+      **OUTPUT EXAMPLE** change the roll dice option to player2
      
      
      

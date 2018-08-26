@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Pig Dice</title>
-      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/style.css" rel="stylesheet" type="text/css">
-     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-     <script src="js/script.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="container">
       <h1> <span class="play">PLAY PIG DICE</span></h1>
-        
+
       <div class="row">
           <div class="col-md-5">
             <div id="player1">
@@ -25,6 +25,8 @@
               <br><br>
               <p>YOU ROLLED:<br> <span class="player1Result"></span> </p>
 
+              <p>FINAL SCORE</p>
+
 
             </div>
 
@@ -32,11 +34,13 @@
 
           <div class="col-md-2">
             <img src="images/dice.jpg" alt="Dice Image" id="img1">
-            <img src="images/dice2.jpg" alt="Dice Image" id="img2">
+              <img src="images/dice2.jpg" alt="Dice Image" id="img2">
              <br>
             <button type="button" id="btn-hold">HOLD</button>
-            <br><br><br><br>
+              <br><br><br><br>
             <p class="turns">SWITCH TURNS</p>
+
+            <button type="button" id="btn-reload">New Game</button>
           </div>
 
           <div class="col-md-5">
@@ -51,6 +55,7 @@
               <br><br>
               <p>YOU ROLLED: <br> <span class="player2Result"></span> </p>
 
+              <p>FINAL SCORE:</p>
             </div>
 
 
@@ -78,8 +83,5 @@
         </div>
 
       </div>
-
-    </div>
-
   </body>
 </html>

@@ -1,38 +1,12 @@
-// Business LOGIC
-function Dice(roll, score, player, turn){
-  this.roll = roll;
-  this.score = score;
-  this.tempscore = 0;
-  this.totalscore = 0;
-  this.turn = turn;
-  this.player = player;
-};
-
-Dice.prototype.rollone = function() {
-  if (this.roll === 1) {
-  this.tempscore = 0;
-  alert("Sorry " + this.player + ", you rolled a 1! Your turn is over!")
-  // this.changeturn();
-  } else {
-  this.tempscore += this.roll;
-  }
-}
-
-Dice.prototype.hold = function () {
-  this.totalscore += this.tempscore;
-  this.tempscore = 0;
-  alert(this.player + ", your turn is over, pass the mouse!");
-}
-
-Dice.prototype.winnerCheck = function () {
-  if (this.totalscore >= 100) {
-    alert(this.player+ " You are the winner!");
-  }
-}
-
+// BUSINESS LOGIC
+ function page(){
+   location.reload()
+ }
 
 var calcScore = function(numbers){
-  var tempscore = 0
+  var tempscore = 0;
+  var arrays = []
+
 
         if (numbers === 1) {
       return "Sorry You rolled a 1. Score is zero"
@@ -41,15 +15,40 @@ var calcScore = function(numbers){
     else {
 
       return  tempscore += numbers;
+      ++tempscore;
 
     }
-
 }
 
+function Dice(){
+  var tempScore = 0;
+   var gameScore = 0;
+}
 
 var randomize = function(){
   var randomNumber = Math.floor((Math.random() * 6) + 1);
    return randomNumber;
+}
+
+var randNumber = randomize();
+
+var playerScore = function(player){
+  var roll = randNumber;
+  var tempScore = 0;
+  var arrays = [];
+
+  if (roll === 1) {
+    return 0;
+  }
+  else {
+    arrays.push(roll);
+    for (var i = 0; i < arrays.length; i++) {
+      var total = tempScore + roll;
+      return total;
+    }
+
+
+  }
 }
 
 // USER LOGIC
@@ -106,6 +105,11 @@ $(document).ready(function(){
     $("body").removeClass();
     $("body").addClass("red-background")
   });
+   $("#btn-reload").click(function(){
+     page();
+
+   });
+
 
 
 });

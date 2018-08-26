@@ -2,7 +2,10 @@
 Pig-Dice
 
 ***
+## Author
+By KALEI ELSIE NDINDA
 
+***
 ## Description
 A game that is played by two players by rolling a dice. To win a game, a player should score 100 points.
 
@@ -43,8 +46,27 @@ When a player reaches a total of 100 or more points, the game ends and that play
     **INPUT EXAMPLE:** Roll Dice
     
     **OUTPUT EXAMPLE** Displays 3
-    
-  
+
+4. The program returns a zero when the dice roll is 1
+
+     **INPUT EXAMPLE:** Roll 1
+     
+     **OUTPUT EXAMPLE:** You rolled a 1, score is Zero
+ 
+5. The program adds and display total results of the dice rolled
+      
+      **INPUT EXAMPLE** 3,4,5
+      
+      **OUTPUT EXAMPLE** 12
+      
+ 6. The program changes the roll dice button between players when they click on hold
+ 
+      **INPUT EXAMPLE** player1 clicks on "HOLD"
+      
+      **OUTPUT EXAMPLE** change the roll dice option to player2
+     
+     
+     
  ***
  ## Link To Live Website
  [Pig Dice]()

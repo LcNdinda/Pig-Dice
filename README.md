@@ -46,8 +46,17 @@ When a player reaches a total of 100 or more points, the game ends and that play
     **INPUT EXAMPLE:** Roll Dice
     
     **OUTPUT EXAMPLE** Displays 3
-    
-  
+
+4. The program returns a zero when the dice roll is 1
+
+     **INPUT EXAMPLE:** Roll 1
+     
+     **OUTPUT EXAMPLE:** You rolled a 1, score is Zero
+ 
+
+     
+     
+     
  ***
  ## Link To Live Website
  [Pig Dice]()

@@ -32,7 +32,16 @@ h1{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+#btn-reload{
+  text-decoration: none;
+  background-color:#C62828;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  position: absolute;
+  color: white;
+  margin-left: 11%;
+}
 img{
   width: 80%;
 }
@@ -42,7 +51,7 @@ img{
 
 .col-md-5{
   border-radius: 25px;
-  background: #E0E0E0;
+  background: #BDBDBD;
   padding: 20px;
   height: 450px;
   text-align: center;

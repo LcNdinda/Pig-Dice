@@ -2,7 +2,10 @@
 Pig-Dice
 
 ***
+## Author
+By KALEI ELSIE NDINDA
 
+***
 ## Description
 A game that is played by two players by rolling a dice. To win a game, a player should score 100 points.
 

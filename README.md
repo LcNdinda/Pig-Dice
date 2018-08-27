@@ -65,7 +65,11 @@ When a player reaches a total of 100 or more points, the game ends and that play
       
       **OUTPUT EXAMPLE** change the roll dice option to player2
      
-     
+  7. The program displays WINNER when the score tallies to 100
+      
+      **INPUT EXAMPLE:** total dice roll = 100
+      **OUTPUT EXAMPLE:** WINNER
+      
      
  ***
  ## Link To Live Website

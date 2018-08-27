@@ -3,19 +3,23 @@
    location.reload()
  }
 
+  var arrays = [];
 var calcScore = function(numbers){
   var tempscore = 0;
-  var arrays = []
 
 
         if (numbers === 1) {
       return "Sorry You rolled a 1. Score is zero"
+      
     }
 
     else {
+      arrays.push(numbers);
 
-      return  tempscore += numbers;
-      ++tempscore;
+      totalScore =  arrays.reduce((a,b)=>a+b);
+      return totalScore;
+      // tempscore += numbers;
+      // ++tempscore;
 
     }
 }

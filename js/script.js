@@ -9,18 +9,22 @@ var calcScore = function(numbers){
 
 
         if (numbers === 1) {
+          totalScore = arrays.length = 0;
       return "Sorry You rolled a 1. Score is zero"
-      
+
     }
 
     else {
       arrays.push(numbers);
 
       totalScore =  arrays.reduce((a,b)=>a+b);
-      return totalScore;
+
       // tempscore += numbers;
       // ++tempscore;
-
+        if (totalScore >= 100) {
+          return "WINNER!!"
+        }
+          return totalScore;
     }
 }
 
